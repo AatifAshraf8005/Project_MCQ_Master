@@ -1,0 +1,244 @@
+/* General Styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #0056b3;
+    background: url('https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?w=740&t=st=1719483238~exp=1719483838~hmac=9a180bc90467c41f6647a2e9d2d665b816e1b4ff8d0c2030a606ba3c0ecbe390');
+    background-size: 790px;
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.home-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    margin: -16px;
+}
+
+nav {
+    float: left;
+    margin-left: 170px;
+    margin-top: -25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    background-color: #0056b3;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #008cba;
+    
+    text-decoration: none;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?w=740&t=st=1719483238~exp=1719483838~hmac=9a180bc90467c41f6647a2e9d2d665b816e1b4ff8d0c2030a606ba3c0ecbe390') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: bisque;
+    text-shadow: 0px 4px 8px #0056b3;
+}
+
+.hero p {
+    font-size: 25px;
+    color: bisque;
+    text-shadow: 0px 4px 8px #0056b3;
+}
+
+.cta-buttons .btn {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+    background: #0056b3;
+}
+
+/* Features Section */
+.features {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+.features .icon {
+    font-size: 48px;
+    color: #007BFF;
+}
+
+.features h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Popular Courses Section */
+.popular-courses {
+    text-align: center;
+    padding: 50px 0;
+    color: green;
+}
+
+.popular-courses h2 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 0px 8px 16px chocolate;
+}
+
+.course-carousel {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.course-card {
+    flex: 0 0 auto;
+    width: 250px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: auto;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+}
+
+.course-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.course-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.course-card p {
+    padding: 0 10px 10px 10px;
+    font-size: 14px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow-x: auto;
+    color: #333;
+}
+
+.testimonial {
+    flex: 0 0 auto;
+    width: 300px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.newsletter-signup input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.newsletter-signup button {
+    padding: 5px 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .features .feature,
+    .course-card {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .course-carousel,
+    .testimonial-slider {
+        flex-direction: column;
+    }
+}

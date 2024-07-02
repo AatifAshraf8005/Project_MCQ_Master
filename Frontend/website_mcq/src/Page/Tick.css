@@ -1,0 +1,159 @@
+/* General Styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #0056b3;
+    background: url('https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?w=740&t=st=1719483238~exp=1719483838~hmac=9a180bc90467c41f6647a2e9d2d665b816e1b4ff8d0c2030a606ba3c0ecbe390');
+    background-size: 690px;
+    
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.home-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    margin: -16px;
+}
+
+nav {
+    float: left;
+    margin-left: 170px;
+    margin-top: -25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    background-color: #0056b3;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #008cba;
+    
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro h2{
+    color: bisque;
+    font-size: 48px;
+    text-shadow: 0px 4px 8px #0056b3;
+}
+
+.intro p{
+    color: bisque;
+    font-size: 25px;
+    text-shadow: 0px 4px 8px #0056b3;
+}
+.subject-links h3{
+    color: bisque;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 0px 4px 8px #0056b3;
+}
+
+.subject-links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+.subject-links ul li {
+    margin: 2rem 1rem;
+    width: 200px;
+    height: 35px;
+}
+
+.subject-links ul li a {
+    font-size: 25px ;
+    text-decoration: double;
+    background: #0056b3;
+    text-shadow: 0px 4px 8px #333;
+    color: burlywood;
+    padding: 1rem 5rem;
+    border-radius: 150px;
+    transition: background 0.10s;
+}
+
+.subject-links ul li a:hover {
+    background: #005f5f;
+}
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.newsletter-signup input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.newsletter-signup button {
+    padding: 5px 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .mcq-container {
+        padding: 0.5rem;
+    }
+
+    .option {
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,175 @@
+/* General Styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #0056b3;
+    background: url('https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?w=740&t=st=1719483238~exp=1719483838~hmac=9a180bc90467c41f6647a2e9d2d665b816e1b4ff8d0c2030a606ba3c0ecbe390');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    color: white;
+    background-color: #0056b3;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #008cba;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+}
+
+.subjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.subject {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/*.subject:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}*/
+
+.subject h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.subject p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #008cba;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #008cba;
+}
+
+.newsletter-signup input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.newsletter-signup button {
+    padding: 5px 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-signup button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (min-width: 600px) {
+    .subject {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+@media (min-width: 900px) {
+    .subject {
+        flex: 1 1 calc(33% - 2rem);
+    }
+}

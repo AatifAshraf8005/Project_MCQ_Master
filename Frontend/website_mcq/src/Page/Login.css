@@ -1,0 +1,65 @@
+.auth-wrapper {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Set background color to white */
+    background: url('https://i.pinimg.com/564x/37/a1/7f/37a17f22f356801e230fafbbf6b51be0.jpg');
+    border-color: plum;
+    transition: transform 0.3s;
+  }
+  .auth-wrapper:hover {
+    transform: scale(1.02); /* Slightly increase size on hover */
+  }
+  
+  .auth-wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold; /* Make the text bold */
+    font-size: 1.5rem; /* Base font size */
+    color: #0056b3;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px darkmagenta;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  .auth-wrapper h2:hover {
+    color: #0056b3; /* Change text color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .auth-wrapper h2 {
+      font-size: 1.25rem; /* Adjust font size for tablets */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .auth-wrapper h2 {
+      font-size: 1rem; /* Adjust font size for mobile phones */
+    }
+  }
+  
+  .btn-primary {
+    width: 100%;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  .btn-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    transition: color 0.3s;
+  }
+  
+  .btn-link:hover {
+    color: #0056b3; /* Change text color on hover */
+    text-decoration: none;
+  }
